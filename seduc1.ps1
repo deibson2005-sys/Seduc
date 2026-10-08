@@ -9,7 +9,7 @@
 #>
 
 # >>> EDITE: cole aqui a URL RAW deste script no GitHub (usada na auto-elevacao) <<<
-$ScriptUrl = 'https://raw.githubusercontent.com/USUARIO/REPO/main/SEDUC_Manutencao_Auto.ps1'
+$ScriptUrl = 'https://raw.githubusercontent.com/deibson2005-sys/Seduc/refs/heads/main/seduc1.ps1'
 
 # --- Auto-elevacao para Administrador ---
 $admin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
